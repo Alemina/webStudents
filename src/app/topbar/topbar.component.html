@@ -1,3 +1,6 @@
-<div>
-  topbar works!
-</div>
+<input
+  type="text"
+  placeholder="Search people..."
+  (input) = "searchPeople($event)"
+>
+Searched person: {{ searchedName }}

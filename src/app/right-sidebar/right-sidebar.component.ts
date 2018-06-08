@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RightSidebarComponent implements OnInit {
 
-  constructor() { }
+  testButtonStatus = false;
+  testInput = 'initialValue'
+
+  constructor() {
+      setInterval(() => {
+        this.testButtonStatus = !this.testButtonStatus;
+        this.testInput = 'value from interval';
+      },5000);
+  }
 
   ngOnInit() {
   }
+
 
 }

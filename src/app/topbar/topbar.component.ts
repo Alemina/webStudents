@@ -7,9 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class TopbarComponent implements OnInit {
 
+  searchedName = '';
+
   constructor() { }
 
   ngOnInit() {
+  }
+
+  searchPeople(event: Event){
+    this.searchedName = (<HTMLInputElement>event.target).value;
   }
 
 }

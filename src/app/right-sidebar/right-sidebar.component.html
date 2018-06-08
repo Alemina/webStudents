@@ -1,3 +1,16 @@
 <p>
   right-sidebar works!
 </p>
+<button
+  class = "btn"
+  [disabled] = "testButtonStatus"  
+>
+  Test Button
+</button>
+
+<input
+  class = "form-control"
+  type= "text"
+  [(ngModel)] = "testInput"
+>
+<p>variable testInput = {{testInput}}</p>

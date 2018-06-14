@@ -1,0 +1,9 @@
+@import '../../../variables';
+ul{
+  height: -webkit-calc(70vh - #{$header-height});
+  height:    -moz-calc(70vh - #{$header-height});
+  height:         calc(70vh - #{$header-height});
+  margin-bottom: 0px;
+  border: 1px solid blue;
+
+}

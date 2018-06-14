@@ -7,15 +7,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class LeftSidebarComponent implements OnInit {
 
-  newGroupStatus = 'No new group has been added';
-
   constructor() { }
 
   ngOnInit() {
   }
 
-  addNewGroup(){
-    this.newGroupStatus = 'New group has been added';
-  }
 
 }

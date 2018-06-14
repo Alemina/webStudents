@@ -3,22 +3,20 @@ import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
-import { TopbarComponent } from './topbar/topbar.component';
 import { LeftSidebarComponent } from './left-sidebar/left-sidebar.component';
 import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
-import { MainFieldComponent } from './main-field/main-field.component';
 import { FooterComponent } from './footer/footer.component';
-import { CentralBarComponent } from './central-bar/central-bar.component';
+import { MainComponent } from './main/main.component';
+import { HeaderComponent } from './header/header.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    TopbarComponent,
     LeftSidebarComponent,
     RightSidebarComponent,
-    MainFieldComponent,
     FooterComponent,
-    CentralBarComponent
+    MainComponent,
+    HeaderComponent
   ],
   imports: [
     BrowserModule,

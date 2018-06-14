@@ -1,5 +1,25 @@
-<div>
-  <app-topbar></app-topbar>
-  <app-main-field></app-main-field>
-  <app-footer></app-footer>
+<div class="container">
+  <header class="row justify-content-center">
+      <app-header></app-header>
+  </header>
+  <main class="row">
+    <div class="col-3">
+      <div class="row justify-content-center">
+          <app-left-sidebar></app-left-sidebar>
+      </div>
+    </div>
+    <div class="col-6">
+      <div class="row justify-content-center">
+        <app-main></app-main>
+      </div>
+    </div>
+    <div class="col-3">
+      <div class="row justify-content-center">
+        <app-right-sidebar></app-right-sidebar>
+      </div>
+    </div>
+  </main>
+  <footer class="row justify-content-center">
+    <app-footer></app-footer>
+  </footer>
 </div>

@@ -7,6 +7,12 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  currentTab = 'advertisment';
+
+  onNavigate(selectedTab: string) {
+    this.currentTab = selectedTab;
+  }
+
   constructor() { }
 
   ngOnInit() {

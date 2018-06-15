@@ -1,2 +1,7 @@
-<app-navbar></app-navbar>
-<app-content></app-content>
+<app-navbar (hyperlinkClicked)="onNavigate($event)"></app-navbar>
+<app-advertisment *ngIf="this.currentTab==='advertisment'"></app-advertisment>
+<app-chat *ngIf="this.currentTab==='chat'"></app-chat>
+<app-calendar *ngIf="this.currentTab==='calendar'"></app-calendar>
+<app-survey *ngIf="this.currentTab==='survey'"></app-survey>
+<app-files *ngIf="this.currentTab==='files'"></app-files>
+<app-settings *ngIf="this.currentTab==='settings'"></app-settings>

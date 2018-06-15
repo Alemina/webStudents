@@ -8,10 +8,15 @@ import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './main/navbar/navbar.component';
-import { ContentComponent } from './main/content/content.component';
 import { AdvertisementComponent } from './right-sidebar/advertisement/advertisement.component';
 import { NotificationsComponent } from './right-sidebar/notifications/notifications.component';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
+import { AdvertismentComponent } from './main/advertisment/advertisment.component';
+import { ChatComponent } from './main/chat/chat.component';
+import { CalendarComponent } from './main/calendar/calendar.component';
+import { SurveyComponent } from './main/survey/survey.component';
+import { FilesComponent } from './main/files/files.component';
+import { SettingsComponent } from './main/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -21,10 +26,15 @@ import { ModalWindowComponent } from './modal-window/modal-window.component';
     MainComponent,
     HeaderComponent,
     NavbarComponent,
-    ContentComponent,
     AdvertisementComponent,
     NotificationsComponent,
-    ModalWindowComponent
+    ModalWindowComponent,
+    AdvertismentComponent,
+    ChatComponent,
+    CalendarComponent,
+    SurveyComponent,
+    FilesComponent,
+    SettingsComponent
   ],
   imports: [
     BrowserModule,

@@ -8,11 +8,19 @@ import { Component, OnInit } from '@angular/core';
 export class LeftSidebarComponent implements OnInit {
 
   groups = ['Test grupa 1', 'Test grupa 2'];
+  modalVisibleStatus = false;
 
   constructor() { }
 
   ngOnInit() {
   }
 
+  handleNewGroup() {
+    this.modalVisibleStatus = true;
+  }
+
+  onModalClose() {
+    this.modalVisibleStatus = false;
+  }
 
 }

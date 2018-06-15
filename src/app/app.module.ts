@@ -11,6 +11,7 @@ import { NavbarComponent } from './main/navbar/navbar.component';
 import { ContentComponent } from './main/content/content.component';
 import { AdvertisementComponent } from './right-sidebar/advertisement/advertisement.component';
 import { NotificationsComponent } from './right-sidebar/notifications/notifications.component';
+import { ModalWindowComponent } from './modal-window/modal-window.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { NotificationsComponent } from './right-sidebar/notifications/notificati
     NavbarComponent,
     ContentComponent,
     AdvertisementComponent,
-    NotificationsComponent
+    NotificationsComponent,
+    ModalWindowComponent
   ],
   imports: [
     BrowserModule,

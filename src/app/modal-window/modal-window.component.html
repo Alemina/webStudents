@@ -1,0 +1,18 @@
+<div class="my-modal fade show">
+  <div class="modal-dialog">
+    <div class="modal-content">
+       <div class="modal-header">
+        <h4 class="modal-title">{{modalHeader}}</h4>
+        <button type="button" class="close" (click)="this.closeModal.emit()">&times;</button>
+      </div>
+      <div class="modal-body">
+        {{modalBody}}
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-danger" (click)="this.closeModal.emit()">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="modal-backdrop fade show"></div>

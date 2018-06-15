@@ -1,4 +1,12 @@
-<button class="btn btn-primary">Create Group</button>
+<app-modal-window
+  *ngIf="modalVisibleStatus"
+  (closeModal)="onModalClose()"
+  [modalHeader]="'This is example header'"
+  [modalBody]="'This is example body'"
+
+
+  ></app-modal-window>
+<button class="btn btn-primary" (click)="handleNewGroup()">Create Group</button>
 <ul *ngIf="groups.length > 0">
   <li *ngFor="let group of groups">{{group}}</li>
 </ul>

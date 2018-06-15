@@ -8,7 +8,7 @@ import { RightSidebarComponent } from './right-sidebar/right-sidebar.component';
 import { MainComponent } from './main/main.component';
 import { HeaderComponent } from './header/header.component';
 import { NavbarComponent } from './main/navbar/navbar.component';
-import { AdvertisementComponent } from './right-sidebar/advertisement/advertisement.component';
+import { AdComponent } from './right-sidebar/ad/ad.component';
 import { NotificationsComponent } from './right-sidebar/notifications/notifications.component';
 import { ModalWindowComponent } from './modal-window/modal-window.component';
 import { AdvertismentComponent } from './main/advertisment/advertisment.component';
@@ -26,7 +26,7 @@ import { SettingsComponent } from './main/settings/settings.component';
     MainComponent,
     HeaderComponent,
     NavbarComponent,
-    AdvertisementComponent,
+    AdComponent,
     NotificationsComponent,
     ModalWindowComponent,
     AdvertismentComponent,
